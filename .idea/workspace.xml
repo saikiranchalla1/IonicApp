@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="481e6359-4ee7-4d0e-a63d-c31247b402eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/list.html" afterPath="$PROJECT_DIR$/www/templates/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/tabs.html" afterPath="$PROJECT_DIR$/www/templates/tabs.html" />
     </list>
     <ignored path="MyIonicApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -353,12 +348,20 @@
       <option name="presentableId" value="Default" />
       <updated>1472378663575</updated>
       <workItem from="1472378665252" duration="3663000" />
-      <workItem from="1472412869961" duration="2577000" />
+      <workItem from="1472412869961" duration="2830000" />
     </task>
+    <task id="LOCAL-00001" summary="Modified Code">
+      <created>1472415793688</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1472415793688</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6240000" />
+    <option name="totallyTimeSpent" value="6493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="754" extended-state="6" />
@@ -393,6 +396,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modified Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified Code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
