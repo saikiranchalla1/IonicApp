@@ -1,17 +1,19 @@
 
-<ion-view view-title="Sports Feed">
-  <div class="bar bar-subheader item-input-inset bar-light">
-          <label class="item-input-wrapper">
-              <i class="icon ion-search placeholder-icon"></i>
-              <input type="search" placeholder="Search" ng-model="query.description">
-          </label>
-      </div>
-      <ion-content class="has-subheader">
+<ion-view view-title="My RSS Feed Reader">
+  <div class="bar bar-subheader
+  item-input-inset bar-light">
+    <label class="item-input-wrapper">
+      <i class="icon ion-search placeholder-icon"></i>
+      <input type="search" ng-model="query.description" placeholder="Search">
+    </label>
+  </div>
+
+      <ion-content class="has-subheader" ng-class="{'has-tabs-top': platform.isAndroid()}">
           <ion-refresher on-refresh="refreshFeed()"></ion-refresher>
             <ion-list>
-              <ion-item ng-repeat="feed in feeds | filter : query" class="item-icon-right item-text-wrap" 
+              <ion-item ng-repeat="feed in feeds | filter : query" class="item-icon-right item-text-wrap"
               ng-class="{'star' : feed.star}" href="#/tab/list/{{$index}}">
-               
+
                <h2 ng-bind-html="feed.description"></h2>
                <a ng-href="{{feed.url}}">{{feed.url}}</a>
                <button type="button" class="button button-clear icon ion-star button-assertive" ng-click="toggleStar(feed)" ng-show="feed.star"></button>
@@ -22,4 +24,4 @@
             </ion-list>
       </ion-content>
 </ion-view>
-      
+
